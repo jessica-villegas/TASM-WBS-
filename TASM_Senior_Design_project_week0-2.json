@@ -1,0 +1,583 @@
+{
+ "app": "sd-wbs-ev",
+ "schema": 1,
+ "name": "TASM Senior Design project",
+ "example": false,
+ "members": [
+  "Marcus Brown",
+  "Jessica Villegas"
+ ],
+ "weeks": 30,
+ "currentWeek": 0,
+ "nextId": 59,
+ "elements": [
+  {
+   "id": "root",
+   "parent": null,
+   "name": "TASM Senior Design project",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e1",
+   "parent": "root",
+   "name": "Project Management",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e4",
+   "parent": "e1",
+   "name": "Planning",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e5",
+   "parent": "e1",
+   "name": "Sponsor Coordination",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "e6",
+   "parent": "e1",
+   "name": "Final Deliverables",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "e7",
+   "parent": "root",
+   "name": "Documentation",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "e8",
+   "parent": "e7",
+   "name": "Requirement Documentation",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e9",
+   "parent": "e7",
+   "name": "Design Documentation",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "ea",
+   "parent": "e7",
+   "name": "User Documentation",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "eb",
+   "parent": "root",
+   "name": "F-15 Simulator Development",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "ec",
+   "parent": "eb",
+   "name": "Hardware Integration",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "ed",
+   "parent": "eb",
+   "name": "Procurement",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "ee",
+   "parent": "eb",
+   "name": "Build to the plan",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "ef",
+   "parent": "root",
+   "name": "Project Management",
+   "order": 3,
+   "pkg": null
+  },
+  {
+   "id": "eg",
+   "parent": "ef",
+   "name": "Reporting",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "eh",
+   "parent": "ef",
+   "name": "Schedule, WBS and earned value",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "ei",
+   "parent": "ef",
+   "name": "Customer contact",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "ep",
+   "parent": "e4",
+   "name": "Requirements Review",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "eq",
+   "parent": "e4",
+   "name": "Project Schedule Development",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "er",
+   "parent": "e4",
+   "name": "Risk Assessment",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "es",
+   "parent": "e5",
+   "name": "Meeting at TASM",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "et",
+   "parent": "e5",
+   "name": "Meeting at CymSTAR",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "eu",
+   "parent": "e5",
+   "name": "Design Reviews",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "ew",
+   "parent": "e6",
+   "name": "Final Presentation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "ex",
+   "parent": "e6",
+   "name": "Final Demonstration",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "ey",
+   "parent": "e6",
+   "name": "Project Handoff",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "ez",
+   "parent": "e7",
+   "name": "Software Documentation",
+   "order": 3,
+   "pkg": null
+  },
+  {
+   "id": "e10",
+   "parent": "e8",
+   "name": "Requirments Report",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e11",
+   "parent": "e8",
+   "name": "Requirements Approval",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e12",
+   "parent": "e9",
+   "name": "Hardware modification documentation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e13",
+   "parent": "e9",
+   "name": "CAD drawing updates",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e14",
+   "parent": "e9",
+   "name": "Mechanical assembly documentation",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e15",
+   "parent": "e9",
+   "name": "Parts list development",
+   "order": 3,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e16",
+   "parent": "ea",
+   "name": "Quick Start Guide",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e17",
+   "parent": "ea",
+   "name": "User Manual",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e18",
+   "parent": "ea",
+   "name": "Maintenance manual",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e19",
+   "parent": "ez",
+   "name": "Software Design document",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1a",
+   "parent": "ez",
+   "name": "Gameplay flow diagrams",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1b",
+   "parent": "ez",
+   "name": "Build Instructions",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1f",
+   "parent": "e7",
+   "name": "Test Documentation",
+   "order": 4,
+   "pkg": null
+  },
+  {
+   "id": "e1g",
+   "parent": "e1f",
+   "name": "Test Plans",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1h",
+   "parent": "e1f",
+   "name": "Test Reports",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1i",
+   "parent": "e1f",
+   "name": "User feedback collection",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1j",
+   "parent": "ec",
+   "name": "Controller Installation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1k",
+   "parent": "ec",
+   "name": "Lighting Installation",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1l",
+   "parent": "ec",
+   "name": "Audio System installation",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  }
+ ],
+ "status": [],
+ "baselines": [],
+ "actions": ""
+}
