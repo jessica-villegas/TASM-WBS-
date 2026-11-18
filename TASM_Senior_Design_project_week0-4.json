@@ -1,0 +1,1323 @@
+{
+ "app": "sd-wbs-ev",
+ "schema": 1,
+ "name": "TASM Senior Design project",
+ "example": false,
+ "members": [
+  "Marcus Brown",
+  "Jessica Villegas"
+ ],
+ "weeks": 30,
+ "currentWeek": 0,
+ "nextId": 119,
+ "elements": [
+  {
+   "id": "root",
+   "parent": null,
+   "name": "TASM Senior Design project",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e1",
+   "parent": "root",
+   "name": "Project Management",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e4",
+   "parent": "e1",
+   "name": "Planning",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e5",
+   "parent": "e1",
+   "name": "Sponsor Coordination",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "e6",
+   "parent": "e1",
+   "name": "Final Deliverables",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "e7",
+   "parent": "root",
+   "name": "Documentation",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "e8",
+   "parent": "e7",
+   "name": "Requirement Documentation",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e9",
+   "parent": "e7",
+   "name": "Design Documentation",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "ea",
+   "parent": "e7",
+   "name": "User Documentation",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "eb",
+   "parent": "root",
+   "name": "F-15 Simulator Development",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "ec",
+   "parent": "eb",
+   "name": "Hardware Integration",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "ed",
+   "parent": "eb",
+   "name": "Front Cockpit Experience",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "ee",
+   "parent": "eb",
+   "name": "Rear Cockpit Experience",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "ef",
+   "parent": "root",
+   "name": "T-37 Simulator Development",
+   "order": 3,
+   "pkg": null
+  },
+  {
+   "id": "eg",
+   "parent": "ef",
+   "name": "Hardware Integration",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "eh",
+   "parent": "ef",
+   "name": "Gameplay Development",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "ei",
+   "parent": "ef",
+   "name": "User Interface",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "ep",
+   "parent": "e4",
+   "name": "Requirements Review",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "eq",
+   "parent": "e4",
+   "name": "Project Schedule Development",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "er",
+   "parent": "e4",
+   "name": "Risk Assessment",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "es",
+   "parent": "e5",
+   "name": "Meeting at TASM",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "et",
+   "parent": "e5",
+   "name": "Meeting at CymSTAR",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "eu",
+   "parent": "e5",
+   "name": "Design Reviews",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "ew",
+   "parent": "e6",
+   "name": "Final Presentation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "ex",
+   "parent": "e6",
+   "name": "Final Demonstration",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "ey",
+   "parent": "e6",
+   "name": "Project Handoff",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "ez",
+   "parent": "e7",
+   "name": "Software Documentation",
+   "order": 3,
+   "pkg": null
+  },
+  {
+   "id": "e10",
+   "parent": "e8",
+   "name": "Requirments Report",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e11",
+   "parent": "e8",
+   "name": "Requirements Approval",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e12",
+   "parent": "e9",
+   "name": "Hardware modification documentation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e13",
+   "parent": "e9",
+   "name": "CAD drawing updates",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e14",
+   "parent": "e9",
+   "name": "Mechanical assembly documentation",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e15",
+   "parent": "e9",
+   "name": "Parts list development",
+   "order": 3,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e16",
+   "parent": "ea",
+   "name": "Quick Start Guide",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e17",
+   "parent": "ea",
+   "name": "User Manual",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e18",
+   "parent": "ea",
+   "name": "Maintenance manual",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e19",
+   "parent": "ez",
+   "name": "Software Design document",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1a",
+   "parent": "ez",
+   "name": "Gameplay flow diagrams",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1b",
+   "parent": "ez",
+   "name": "Build Instructions",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1f",
+   "parent": "e7",
+   "name": "Test Documentation",
+   "order": 4,
+   "pkg": null
+  },
+  {
+   "id": "e1g",
+   "parent": "e1f",
+   "name": "Test Plans",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1h",
+   "parent": "e1f",
+   "name": "Test Reports",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1i",
+   "parent": "e1f",
+   "name": "User feedback collection",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1j",
+   "parent": "ec",
+   "name": "Controller Installation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1k",
+   "parent": "ec",
+   "name": "Lighting Installation",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1l",
+   "parent": "ec",
+   "name": "Audio System installation",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1n",
+   "parent": "ed",
+   "name": "Ring Flight development",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1o",
+   "parent": "ed",
+   "name": "Scoring System",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1p",
+   "parent": "ed",
+   "name": "Obstacles implementation",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1q",
+   "parent": "ed",
+   "name": "Power-up implementation",
+   "order": 3,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1r",
+   "parent": "ee",
+   "name": "Target creation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1s",
+   "parent": "ee",
+   "name": "Moving Targets",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1t",
+   "parent": "ee",
+   "name": "Child-friendly effects",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1u",
+   "parent": "eb",
+   "name": "User Interface",
+   "order": 3,
+   "pkg": null
+  },
+  {
+   "id": "e1v",
+   "parent": "e1u",
+   "name": "Instructions Display",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1w",
+   "parent": "e1u",
+   "name": "Score Display",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1x",
+   "parent": "e1u",
+   "name": "Timer Display",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e1y",
+   "parent": "eb",
+   "name": "Testing",
+   "order": 4,
+   "pkg": null
+  },
+  {
+   "id": "e1z",
+   "parent": "e1y",
+   "name": "Hardware Testing",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e20",
+   "parent": "e1y",
+   "name": "Gameplay testing",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e21",
+   "parent": "e1y",
+   "name": "User testing",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e22",
+   "parent": "eg",
+   "name": "Controller installation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e23",
+   "parent": "eg",
+   "name": "Lighting Installation",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e24",
+   "parent": "eg",
+   "name": "Audio System Installation",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e25",
+   "parent": "eh",
+   "name": "Ball colllection system",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e26",
+   "parent": "eh",
+   "name": "point calculation",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e27",
+   "parent": "eh",
+   "name": "Size Variations",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e29",
+   "parent": "ei",
+   "name": "Instructions Display",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2a",
+   "parent": "ei",
+   "name": "Score Display",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2b",
+   "parent": "ei",
+   "name": "Timer Display",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2c",
+   "parent": "ef",
+   "name": "Testing",
+   "order": 3,
+   "pkg": null
+  },
+  {
+   "id": "e2d",
+   "parent": "e2c",
+   "name": "Hardware Display",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2e",
+   "parent": "e2c",
+   "name": "Gameplay display",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2f",
+   "parent": "e2c",
+   "name": "user testing",
+   "order": 2,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2l",
+   "parent": "root",
+   "name": "Hardware Systems",
+   "order": 4,
+   "pkg": null
+  },
+  {
+   "id": "e2m",
+   "parent": "e2l",
+   "name": "Computer Installation",
+   "order": 0,
+   "pkg": null
+  },
+  {
+   "id": "e2n",
+   "parent": "e2l",
+   "name": "Control Systems",
+   "order": 1,
+   "pkg": null
+  },
+  {
+   "id": "e2o",
+   "parent": "e2m",
+   "name": "Computer mounting",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2p",
+   "parent": "e2m",
+   "name": "cable Management",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2q",
+   "parent": "e2n",
+   "name": "Flight controllers",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2r",
+   "parent": "e2n",
+   "name": "Additional Buttons and switches",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2t",
+   "parent": "e2l",
+   "name": "Visual Systems",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "e2u",
+   "parent": "e2t",
+   "name": "Monitor installation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2v",
+   "parent": "e2t",
+   "name": "interior lighting",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2w",
+   "parent": "e2l",
+   "name": "Audio",
+   "order": 3,
+   "pkg": null
+  },
+  {
+   "id": "e2x",
+   "parent": "e2w",
+   "name": "Speaker installation",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2y",
+   "parent": "e2w",
+   "name": "Buttkicker installation",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e2z",
+   "parent": "e2l",
+   "name": "Durability Verification",
+   "order": 4,
+   "pkg": null
+  },
+  {
+   "id": "e30",
+   "parent": "e2z",
+   "name": "Structural testing",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e31",
+   "parent": "e2z",
+   "name": "Maintenance accessibility review",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e32",
+   "parent": "root",
+   "name": "Verification & Validation",
+   "order": 5,
+   "pkg": null
+  },
+  {
+   "id": "e33",
+   "parent": "e32",
+   "name": "Hardware Verification",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e34",
+   "parent": "e32",
+   "name": "Software Verification",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e35",
+   "parent": "e32",
+   "name": "User Testing",
+   "order": 2,
+   "pkg": null
+  },
+  {
+   "id": "e36",
+   "parent": "e35",
+   "name": "Guest Evaluations",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e37",
+   "parent": "e35",
+   "name": "Results Analysis",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e38",
+   "parent": "e32",
+   "name": "Final Acceptance",
+   "order": 3,
+   "pkg": null
+  },
+  {
+   "id": "e39",
+   "parent": "e38",
+   "name": "Requirement verfication",
+   "order": 0,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  },
+  {
+   "id": "e3a",
+   "parent": "e38",
+   "name": "Customer acceptance testing",
+   "order": 1,
+   "pkg": {
+    "type": "task",
+    "owner": "",
+    "start": 1,
+    "finish": 1,
+    "preds": [],
+    "deliverable": "",
+    "longOk": false,
+    "longWhy": ""
+   }
+  }
+ ],
+ "status": [],
+ "baselines": [],
+ "actions": ""
+}
