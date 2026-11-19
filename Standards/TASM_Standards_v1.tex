@@ -1,0 +1,95 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{margin=1in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{amsmath} % equations
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+%opening
+\title{TASM F-15 and T-37 Flight Simulators\\Engineering Standards Report}
+\author{Marcus Brown, Jessica Villegas}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section{Relevant Standards}
+
+\subsection{OSHA Title 29, Part 1910 -- Occupational Safety and Health Standards}
+
+\subsubsection*{\S 1910.303 -- Electrical Safety Requirements}
+This standard covers all wiring, guarding, and quality standards relevant to the installation of our system into the exhibits. Specifically, this will guide our design of the rear compartment where the PC's, UPS's, amps, and microcontrollers will be stored. 
+
+\subsubsection*{\S 1910.305 -- Wiring Methods}
+This standard covers wire management methods: zip ties, adhesive clips, etc.
+
+\subsubsection*{\S 1910.144 -- Safety Color Coding}
+This standard influences the color-coded effects that play on the LED's in certain game conditions: ring/target hit/missed, out of bounds, etc.
+
+\subsubsection*{\S 1910.25 -- Stairways}
+The exhibits require access stairways, and this standard enforces handrail height and stair tread and depth. NB: This standard may not be used, as TASM may handle the design and construction of the access stairway. 
+
+\subsection{IEEE 1012-1016 -- System, Software, and Hardware Verification and Validation}
+This standard offers some principles for verification and validation that will guide our own testing process. The main areas needing extensive testing are the software plugins (bugs, performance), hardware-software integration (LED's responding to actions in game, haptic feedback), and life-cycle testing for the joystick controller. 
+
+\subsection{ISO 9241-210:2019 -- Human-Centered Design for Interactive Systems}
+This standard will influence how we design user-facing systems, including the gameplay, user-interface, documentation, and the exhibit itself. The main principles to follow here are that the "users are involved throughout design and development" and that "design addresses the whole user experience."
+
+\subsection{ANSI Y14 -- Engineering Drawing and Dimensioning and Tolerancing Standards}
+
+\subsubsection*{\S 14.5 -- Geometric Dimensioning and Tolerancing}
+This standard governs the requirements for clear dimensions and tolerances on all engineering drawings to improve clarity and readability. 
+
+\subsubsection*{\S 14.100 -- Engineering Drawing Practices}
+This standard concerns formatting, titling, and numbering of all engineering drawings. This influences how we label assemblies and the required information in the title block. 
+
+\end{document}

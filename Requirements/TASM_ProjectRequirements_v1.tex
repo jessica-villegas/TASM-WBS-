@@ -1,0 +1,264 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[12pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{margin=1in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{enumitem} % for lists of requirements
+\usepackage{calligra} % for signatures in Approval section
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{1pt} % customise the layout...
+\lhead{TASM F-15 and T-37 Flight Simulators}\chead{}\rhead{Requirements Report}
+\lfoot{November 12, 2026}\cfoot{\thepage}\rfoot{Version 1.0}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\newcommand{\signature}[1]{{\calligra\large #1}} % signature command for Approval section
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{TASM F-15 and T-37 Flight Simulators\\Requirements Report}
+\author{Marcus Brown, Jessica Villegas}
+\date{November 12, 2026} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+
+The purpose of this project is to complete and upgrade two previous senior design projects carried out for the Tulsa Air and Space Museum (TASM) with the support of CymSTAR: a F-15 dual-cockpit flight simulator game, and a T-37 shared cockpit simulator game. The goal is to create fun, immersive  experiences that allow visitors to experience the inside of the cockpit through quick flight simulator gameplay loops with immersive elements. 
+
+\section{Requirements} 
+
+\subsection{Technical Data Package Requirements}
+
+\begin{enumerate}[label=\arabic*., leftmargin=*]
+	\item Project Management
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*., leftmargin=*]
+        	\item The project shall be fully completed by May 15th, 2026.
+	\end{enumerate}
+    
+	\item Project Documentation
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*., leftmargin=*]
+		\item The project shall be delivered with the following documentation:
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*., leftmargin=*]
+			\item A list of all hardware modifications, any applicable CAD drawings of the modifications, along with their completion status.
+			\item Wiring guides for the complete cockpit assembly.
+			\item A list of all mechanical assemblies, with their completion status. 
+			\item A complete parts list. 
+			\item This Requirements Document, signed by the design team and CymSTAR. 
+			\item The Test Plan and Procedure, along with all Test Reports and results. 
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\alph*., leftmargin=*]
+				\item This includes user feedback and questionnaires. 
+		\end{enumerate}
+			\item A software design document outlining all software decisions made, along with diagrams explaining gameplay loop and overall program flow. 
+		\end{enumerate}
+		\item The following documentation will be provided to assist with future maintenance:
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*., leftmargin=*]
+			\item A 1-page troubleshooting and quick start guide. 
+			\item A detailed user manual. 
+			\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\alph*., leftmargin=*]
+				\item The user manual shall contain information on the start-up and shut-down of the simulation.
+				\item The user manual shall contain the basic flow of the gameplay for each experience. 
+				\item The user manual shall contain information on quickly restarting the simulation. 
+			\end{enumerate}
+			\item A detailed Maintenance Manual. 
+			\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\alph*., leftmargin=*]
+				\item The maintenance manual shall contain a complete parts list.
+				\item The maintenance manual shall contain software tutorials, including but not limited to installation processes, manual launching of the simulation, and updating packages.
+				\item The maintenance manual shall contain hardware tutorials, including but not limited to the replacement of components (lights, controller, etc.) and confirming proper connections between hardware and software.
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+	\item Delivered Items
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item Upon completion of the project, the following must be delivered to TASM:
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*, leftmargin=*]
+			\item All Project Documentation, as listed in this document. 
+			\item Source Code with libraries and build instructions included. 
+			\item All additional 3D models used in the simulation.
+			\item The complete modified F-15 and T-37 trainer cockpits, with hardware integrated and capable of running the simulation. 
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{Hardware Design Requirements}
+
+\begin{enumerate}[label=\arabic*, leftmargin=*]
+	\item Computer
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item Each computer used shall meet the minimum requirements of the X-Plane software package.
+		\item Each computer shall be equipped with a version of the X-Plane Commercial License Key. 
+		\item Each computer shall be locked and inaccessible to users and guests. 
+		\item Each computer and its associated wiring shall be accessible to TASM staff for start-up, shutdown, and maintenance.
+	\end{enumerate}
+	\item Controller
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item Each cockpit shall contain a controller allowing the user to control the rotation and movement of the simulation or the aim of the weapons system, depending on the experience being played. 
+		\item The cockpit may have additional controls and visual input, including small screens and buttons, that allow the user to interact with the simulation outside of the primary controller. 
+	\end{enumerate}
+	\item Visuals
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item The cockpit shall contain individual monitors for each experience. 
+		\item The cockpit shall have inner and outer lights that respond to activity within the simulation.
+	\end{enumerate}
+	\item Audio
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item The cockpit shall have speakers, interfacing with the computer and simulation. 
+		\item The speakers provided shall not exceed 85dB in volume. 
+		\item The cockpit shall be equipped with "Buttkickers" to provide haptic feedback in response to the simulation.
+	\end{enumerate}
+	\item Durability
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item The seat shall be non-porous and durable, being able to support users up to 300lbs.
+		\item All items added to the cockpit shall be securely mounted to allow for little to no excess movement or vibrations, unless movement is necessary.
+		\item All additions to the cockpit shall be designed to handle typical museum traffic without failure.
+		\item Part replacements should be possible to complete in under 3 hours, unless specified otherwise.
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{Software Design Requirements}
+
+\begin{enumerate}[label=\arabic*, leftmargin=*]
+	\item General Required Software
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item The simulation experience shall be created and/or altered by the team using X-Plane. 
+		\item The simulation experience shall use a Windows 11 operating system. 
+		\item The startup script shall launch the game upon computer start-up. 
+		\item The software shall have an external backup via a software repository.
+	\end{enumerate}
+	\item Simulation Goals
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item Overall Experience
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*, leftmargin=*]
+			\item Basic game controls shall be displayed using simple on-screen instructions and/or visuals. 
+			\item The simulation shall interface aural, visual, and haptic feedback immersion elements.
+			\item The simulation should be sufficiently easy to use for a user of 5 years of age or older. 
+		\end{enumerate}
+		\item Game Design
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*, leftmargin=*]
+			\item The F-15 simulation shall be equipped with two unique experiences, one for each cockpit. 
+			\item The T-37 simulation shall be equipped with two identical experiences, each with separate controls and feedback. 
+			\item Each experience within the simulation shall have a time limit of approximately 90 seconds. 
+			\item The F-15 front cockpit scenario shall meet the following requirements:
+			\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\alph*, leftmargin=*]
+				\item The scenario shall have rings, with the user being able to pilot through the rings. 
+				\item The user shall be able to gain points by flying through rings. 
+				\item The scenario shall contain both obstacles, detrimental to the player's score, and pickups, improving the user's score or ability to earn points.
+			\end{enumerate}
+			\item The F-15 rear cockpit scenario shall meet the following requirements:
+			\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\alph*, leftmargin=*]
+				\item The scenario shall have targets, with the user being equipped to fire weapons at the targets.
+				\item The targets and weapon selection shall be child-friendly, as well as any animations and sound effects. 
+				\item The experience will have both stationary targets and moving targets as a range of difficulty for the user. 
+			\end{enumerate}
+			\item The T-37 dual cockpit scenario shall meet the following requirements:
+			\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\alph*, leftmargin=*]
+				\item The scenario shall have scattered balls, which the user must fly through to collect.
+				\item The balls shall vary in size, with smaller balls offering the user more points. 
+			\end{enumerate}
+			\item Flight and weapon controls between experiences shall be user-friendly, using handicaps and adjustments as necessary to improve the experience for younger players. 
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{Testing Requirements}
+
+\begin{enumerate}[label=\arabic*, leftmargin=*]
+	\item Any testing done throughout the project shall be accompanied by a Test Plan approved prior to completion of tests, a Test Report documenting findings and changes made based on test feedback, and a compiled list of all results. 
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item Hardware Testing Requirements
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*, leftmargin=*]
+			\item All hardware modifications shall be thoroughly tested to meet the requirements outlined in the Hardware Design Requirements. 
+		\end{enumerate}
+		\item Software Testing Requirements
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*, leftmargin=*]
+			\item The simulation shall undergo multiple rounds of user testing, both individually as well as with TASM guests when possible.
+			\item User testsing shall consist of allowing users to experience the current version of the simulation, followed by data collection.
+			\item Data collection shall be done in writing.
+			\item Any user testing sessions may be recorded for later analysis of user control patterns and gameplay habits. 
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{"V2 Project" Requirements}
+
+\begin{enumerate}[label=\arabic*, leftmargin=*]
+	\item Due to this being a continuation of previous senior design projects, the current team shall modify and/or complete the existing deliverables as per the request of the customer.
+	\begin{enumerate}[label=\arabic{enumi}.\arabic*, leftmargin=*]
+		\item F-15 Modification Requirements
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*, leftmargin=*]
+			\item The software package should be improved and upgraded at the discretion of the current team. 
+			\item The hardware design and installation shall be completed per the Hardware Design Requirements. 
+			\item The documentation shall be finalized per the Technical Data Package Requirements. 
+		\end{enumerate}
+		\item T-37 Modification Requirements
+		\begin{enumerate}[label=\arabic{enumi}.\arabic{enumii}.\arabic*, leftmargin=*]
+			\item The software package should be improved and upgraded at the discretion of the current team.
+			\item The exhibit shall be separated into two separate user experiences, with updates to the gameplay loop based on the separation.
+			\item The documentation shall be finalized per the Technical Data Package Requirements. 
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\newpage
+
+\section{Approval}
+
+\begin{center}
+\begin{tabular}{lllc}
+\toprule
+\textbf{Role} & \textbf{Printed Name} & \textbf{Signature} & \textbf{Date} \\ 
+\midrule
+Member & Marcus Brown & \signature{Marcus Brown} & 11/12/2026 \\ 
+\midrule
+Member & Jessica Villegas & \signature{Jessica Villegas} & 11/12/2026 \\ 
+\midrule
+Sponsor & Zack Kirkendoll &   &  \\ 
+\midrule
+Professor & Douglas Jussaume & & \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\end{document}
